@@ -2,7 +2,7 @@ EMODnet web service documentation
 =================================
 ### Metadata services
 
-The EMODnet catalogues and other partner catalogues (IFREMER, ICES,
+The EMODnet catalogues and other partner catalogues (IFREMER,
 etc.) offer the ability to search collections of metadata for data,
 services and related information objects related to the EMODnet Marine
 Data. The data catalogues offer a **CSW** endpoint to other client
@@ -34,7 +34,7 @@ Examples of EMODnet CSW GetCapabilities:
 
 > <http://www.emodnet.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&version=2.0.2>
 
->   <https://sextant.ifremer.fr/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&version=2.0.2>
+> <https://sextant.ifremer.fr/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&version=2.0.2>
 
 #### CSW GetRecords
 
