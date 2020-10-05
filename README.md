@@ -1,4 +1,4 @@
-EMODnet Web service documentation
+EMODnet web service documentation
 =================================
 ### Metadata services
 
