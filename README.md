@@ -242,18 +242,18 @@ retrieval of coverages.
 
 Example of an EMODnet Bathymetry GetCoverage request:
 
->   <https://ows.emodnet-bathymetry.eu/wcs?service=wcs&version=1.0.0&request=getcoverage&coverage=emodnet:mean&crs=EPSG:4326&BBOX=-2.52,45.61,-1.08,46.40&format=image/tiff&interpolation=nearest&resx=0.00208333&resy=0.00208333>
+>   <https://ows.emodnet-bathymetry.eu/wcs?service=wcs&version=1.0.0&request=getcoverage&coverage=emodnet:mean&crs=EPSG:4326&BBOX=-2.52,45.6,-1.08,46.40&format=image/tiff&interpolation=nearest&resx=0.00208333&resy=0.00208333>
 
 ### Other web services by thematic portals
 
   -------------------------- -------------------------------------------------------------------
  | Portal | URL |
 |-|-|
-| EMODnet Bathymetry | https://portal.emodnet-bathymetry.eu/services/ |
-| EMODnet Biology | http://www.emodnet-biology.eu/emodnet-biology-api |
-| EMODNET Chemistry | https://www.emodnet-chemistry.eu/products/api |
-| EMODnet Geology | https://www.emodnet-geology.eu/services/ |
-| EMODnet Human activities |  |
-| EMODnet Physics |  |
-| EMODnet Seabed habitats | https://www.emodnet-seabedhabitats.eu/access-data/web-services/ |
+| Bathymetry | https://portal.emodnet-bathymetry.eu/services/ |
+| Biology | http://www.emodnet-biology.eu/emodnet-biology-api |
+| Chemistry | https://www.emodnet-chemistry.eu/products/api |
+| Geology | https://www.emodnet-geology.eu/services/ |
+| Human activities |  |
+| Physics |  |
+| Seabed habitats | https://www.emodnet-seabedhabitats.eu/access-data/web-services/ |
   -------------------------- -------------------------------------------------------------------
