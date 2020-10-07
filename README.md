@@ -77,27 +77,28 @@ Enter one of the following WMS endpoint URLs into your WMS client (QGIS,
 ArcMap, MapInfo etc.):
 
   --------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
-| Portal | URL |
-|-|-|
-| EMODnet Bathymetry | [https://ows.emodnet-bathymetry.eu/wms |
-| EMODnet Biology - data products | [http://geo.vliz.be/geoserver/Emodnetbio/wms |
-| EMODnet Biology - Occurrence data | [http://geo.vliz.be/geoserver/Dataportal/wms |
-| EMODnet Chemistry - Concentration maps by sea region | [http://ec.oceanbrowser.net/emodnet/Python/web/wms |
-| EMODnet Chemistry - Concentration maps by parameter | [http://ec.oceanbrowser.net/emodnet-combined/Python/web/wms |
-| EMODnet Chemistry - Plots | [http://ec.oceanbrowser.net/emodnet/Python/web/wpswms |
-| EMODnet Chemistry - Marine litter | [https://www.ifremer.fr/services/wms/emodnet_chemistry2 |
-| EMODnet Chemistry - CDI Data Discovery and Access service | [https://geoservice.maris.nl/wms/seadatanet/EMODnet_chemistry |
-| EMODnet Chemistry – CDI per parameter | http://geoservice.maris2.nl/wms/project/emodnet_chemistry_service/wms |
-| EMODnet Geology – Sea-floor (bedrock) | https://drive.emodnet-geology.eu/geoserver/bgr/wms |
-| EMODnet Geology – Marine Minerals | https://drive.emodnet-geology.eu/geoserver/gsi/wms |
-| EMODnet Geology – Seabed Substrate maps | https://drive.emodnet-geology.eu/geoserver/gtk/wms |
-| EMODnet Geology – Events and Probabilities | https://drive.emodnet-geology.eu/geoserver/ispra/wms |
-| EMODnet Geology – Coastal Behavior | https://drive.emodnet-geology.eu/geoserver/tno/wms |
-| EMODnet Geology – Submerged Landscapes | https://drive.emodnet-geology.eu/geoserver/bgs/wms |
-| EMODnet Human activities | https://ows.emodnet-humanactivities.eu/wms |
-| EMODnet Physics | https://geoserver.emodnet-physics.eu/geoserver/emodnet/wms |
-| EMODnet Seabed Habitats – General datasets and products | https://ows.emodnet-seabedhabitats.eu/emodnet_view/wms |
-| EMODnet Seabed Habitats - individual habitat map and model datasets | https://ows.emodnet-seabedhabitats.eu/emodnet_view_maplibrary/wms |
+  | Portal           | Description                                                                   | WMS GetCapabilities                                                                                                 |
+  |:-----------------|:------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+  | Bathymetry       | Data Products                                                                 | https://ows.emodnet-bathymetry.eu/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                             |
+  | Biology          | Data Products                                                                 | https://geo.vliz.be/geoserver/Emodnetbio/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                      |
+  | Biology          | Occurrence data                                                               | https://geo.vliz.be/geoserver/Dataportal/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                      |
+  | Chemistry        | Eutrophication by sea region                                                  | https://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                |
+  | Chemistry        | Eutrophication                                                                | https://ec.oceanbrowser.net/emodnet-projects/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0       |
+  | Chemistry        | Litter                                                                        | https://www.ifremer.fr/services/wms/emodnet_chemistry2?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
+  | Chemistry        | Contaminants                                                                  | https://nodc.ogs.trieste.it/geoserver/Contaminants/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
+  | Chemistry        | CDI Data Discovery and Access service                                         | https://geo-service.maris.nl/emodnet_chemistry/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                |
+  | Chemistry        | Distribution of CDI observations per data category (P36) and MSFD sea regions | https://geo-service.maris.nl/emodnet_chemistry_p36/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
+  | Geology          | Sea-floor (bedrock)                                                           | https://drive.emodnet-geology.eu/geoserver/bgr/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                |
+  | Geology          | Marine Minerals                                                               | https://drive.emodnet-geology.eu/geoserver/gsi/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                |
+  | Geology          | Seabed Substrate maps                                                         | https://drive.emodnet-geology.eu/geoserver/gtk/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                |
+  | Geology          | Events and Probabilities                                                      | https://drive.emodnet-geology.eu/geoserver/ispra/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0              |
+  | Geology          | Coastal Behavior                                                              | https://drive.emodnet-geology.eu/geoserver/tno/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                |
+  | Geology          | Submerged Landscapes                                                          | https://drive.emodnet-geology.eu/geoserver/bgs/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                |
+  | Geology          | Index of borehole and geophysics data                                         | https://drive.emodnet-geology.eu/geoserver/geus/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0               |
+  | Human Activities | Data and Data Products                                                        | https://ows.emodnet-humanactivities.eu/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                        |
+  | Physics          | Platforms                                                                     | http://geoserver.emodnet-physics.eu/geoserver/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                 |
+  | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/emodnet_view/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
+  | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/emodnet_view_maplibrary/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0 |
   --------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
 
 #### WMS GetCapabilities
