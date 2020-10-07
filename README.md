@@ -154,7 +154,7 @@ performing a WFS GetCapabilities request.
 The EMODnet WFS services are accessible from following endpoints:
 
   --------------------------------------------------------------------- -------------------------------------------------------------------------------
-  | Portal           | Description                                                                   | WFS_GetCapabilities                                                                                                 |
+  | Portal           | Description                                                                   | WFS GetCapabilities                                                                                                 |
   |:-----------------|:------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
   | Bathymetry       | Data Products                                                                 | https://ows.emodnet-bathymetry.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                             |
   | Biology          | Data Products                                                                 | https://geo.vliz.be/geoserver/Emodnetbio/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                      |
