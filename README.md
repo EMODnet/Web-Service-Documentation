@@ -15,10 +15,10 @@ the catalogue.
 | EMODnet Central portal | [https://www.emodnet.eu/geonetwork/emodnet/eng/csw](https://www.emodnet.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities) |
 | EMODnet Bathymetry |  |
 | EMODnet Biology |  |
-| EMODNET Chemistry | https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry |
-| EMODnet Geology | https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw |
+| EMODNET Chemistry | [https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry](https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry?service=CSW&request=GetCapabilities) |
+| EMODnet Geology | [https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw](https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities) |
 | EMODnet Human activities |  |
-| EMODnet Physics | https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw |
+| EMODnet Physics | [https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw](https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities) |
 | EMODnet Seabed habitats |  |
   -------------------------- -------------------------------------------------------------------------------------------------------------------------
 
