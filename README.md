@@ -242,7 +242,7 @@ retrieval of coverages.
 
 Example of an EMODnet Bathymetry GetCoverage request:
 
->   <https://ows.emodnet-bathymetry.eu/wcs?service=wcs&version=1.0.0&request=getcoverage&coverage=emodnet:mean&crs=EPSG:4326&BBOX=-2.08542634499992,45.656434726,-1.08908527599993,46.4319841780001&format=image/tiff&interpolation=nearest&resx=0.00208333&resy=0.00208333>
+>   <https://ows.emodnet-bathymetry.eu/wcs?service=wcs&version=1.0.0&request=getcoverage&coverage=emodnet:mean&crs=EPSG:4326&BBOX=-2.52,45.61,-1.08,46.40&format=image/tiff&interpolation=nearest&resx=0.00208333&resy=0.00208333>
 
 ### Other web services by thematic portals
 
