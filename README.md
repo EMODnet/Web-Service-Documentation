@@ -136,7 +136,7 @@ Web Coverage Service (WCS) in accordance with the Open Geospatial
 Consortium (OGC) specifications
 ([www.opengeospatial.org](http://www.opengeospatial.org)).
 
-Note that some portals provide other download services too. For example
+Note that some portals provide other, non-OGC, download services too. For example
 EMODnet Bathymetry offers a REST service, EMODnet Biology allows
 specific parameters in the WFS requests, EMODnet Chemistry has an
 OPeNDAP service,\... See [section
@@ -154,23 +154,26 @@ performing a WFS GetCapabilities request.
 The EMODnet WFS services are accessible from following endpoints:
 
   --------------------------------------------------------------------- -------------------------------------------------------------------------------
-  | Portal | URL |
-|-|-|
-| EMODnet Bathymetry | https://ows.emodnet-bathymetry.eu/wfs |
-| EMODnet Biology | http://geo.vliz.be/geoserver/Emodnetbio/wfs |
-| EMODnet Biology - Occurrence data | http://geo.vliz.be/geoserver/Dataportal/wfs |
-| EMODnet Chemistry - Marine litter | https://www.ifremer.fr/services/wfs/emodnet_chemistry2 |
-| EMODnet Chemistry – Time series location | http://emodnet02.cineca.it/geoserver/wfs |
-| EMODnet Geology – Sea-floor (bedrock) | https://drive.emodnet-geology.eu/geoserver/bgr/wfs |
-| EMODnet Geology – Marine Minerals | https://drive.emodnet-geology.eu/geoserver/gsi/wfs |
-| EMODnet Geology – Seabed Substrate maps | https://drive.emodnet-geology.eu/geoserver/gtk/wfs |
-| EMODnet Geology – Events and Probabilities | https://drive.emodnet-geology.eu/geoserver/ispra/wfs |
-| EMODnet Geology – Coastal Behavior | https://drive.emodnet-geology.eu/geoserver/tno/wfs |
-| EMODnet Geology – Submerged Landscapes | https://drive.emodnet-geology.eu/geoserver/bgs/wfs |
-| EMODnet Human activities | https://ows.emodnet-humanactivities.eu/wfs |
-| EMODnet Physics | https://geoserver.emodnet-physics.eu/geoserver/emodnet/wfs |
-| EMODnet Seabed Habitats – General datasets and products | https://ows.emodnet-seabedhabitats.eu/emodnet_open/wfs |
-| EMODnet Seabed Habitats - individual habitat map and model datasets | https://ows.emodnet-seabedhabitats.eu/emodnet_open_maplibrary/wfs |
+  | Portal           | Description                                                                   | WFS_GetCapabilities                                                                                                 |
+  |:-----------------|:------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+  | Bathymetry       | Data Products                                                                 | https://ows.emodnet-bathymetry.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                             |
+  | Biology          | Data Products                                                                 | https://geo.vliz.be/geoserver/Emodnetbio/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                      |
+  | Biology          | Occurrence data                                                               | https://geo.vliz.be/geoserver/Dataportal/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                      |
+  | Chemistry        | Litter                                                                        | https://www.ifremer.fr/services/wfs/emodnet_chemistry2?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
+  | Chemistry        | Contaminants                                                                  | https://nodc.ogs.trieste.it/geoserver/Contaminants/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
+  | Chemistry        | CDI Data Discovery and Access service                                         | https://geo-service.maris.nl/emodnet_chemistry/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                |
+  | Chemistry        | Distribution of CDI observations per data category (P36) and MSFD sea regions | https://geo-service.maris.nl/emodnet_chemistry_p36/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
+  | Geology          | Sea-floor (bedrock)                                                           | https://drive.emodnet-geology.eu/geoserver/bgr/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                |
+  | Geology          | Marine Minerals                                                               | https://drive.emodnet-geology.eu/geoserver/gsi/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                |
+  | Geology          | Seabed Substrate maps                                                         | https://drive.emodnet-geology.eu/geoserver/gtk/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                |
+  | Geology          | Events and Probabilities                                                      | https://drive.emodnet-geology.eu/geoserver/ispra/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0              |
+  | Geology          | Coastal Behavior                                                              | https://drive.emodnet-geology.eu/geoserver/tno/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                |
+  | Geology          | Submerged Landscapes                                                          | https://drive.emodnet-geology.eu/geoserver/bgs/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                |
+  | Geology          | Index of borehole and geophysics data                                         | https://drive.emodnet-geology.eu/geoserver/geus/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0               |
+  | Human Activities | Data and Data Products                                                        | https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                        |
+  | Physics          | Platforms                                                                     | http://geoserver.emodnet-physics.eu/geoserver/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                 |
+  | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/emodnet_open/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
+  | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/emodnet_open_maplibrary/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0 |
   --------------------------------------------------------------------- -------------------------------------------------------------------------------
 
 ##### WFS GetCapabilities
