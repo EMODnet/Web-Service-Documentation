@@ -12,14 +12,14 @@ the catalogue.
   -------------------------- -------------------------------------------------------------------------------------------------------------------------
 | Portal | CSW GetCapabilities |
 |-|-|
-| EMODnet Central portal | https://www.emodnet.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
-| EMODnet Bathymetry |  |
-| EMODnet Biology |  |
-| EMODNET Chemistry | https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
-| EMODnet Geology | https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
-| EMODnet Human activities |  |
-| EMODnet Physics | [https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
-| EMODnet Seabed habitats |  |
+| Central portal | https://www.emodnet.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| Bathymetry |  |
+| Biology |  |
+| Chemistry | https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| Geology | https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| Human activities |  |
+| Physics | [https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| Seabed habitats |  |
   -------------------------- -------------------------------------------------------------------------------------------------------------------------
 
 #### CSW GetCapabilities
