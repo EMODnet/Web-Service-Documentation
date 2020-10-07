@@ -182,10 +182,6 @@ A GetCapabilities request generates a metadata document (xml) describing
 a WFS service provided by server as well as valid WFS operations and
 parameters.
 
-Example of a EMODnet human activities GetCapabilities request:
-
->   <https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&VERSION=1.1.0&request=GetCapabilities>
-
 ##### WFS DescribeFeature
 
 A DescribeFeature request returns a description of feature types
@@ -227,10 +223,6 @@ of the following addresses into your WCS client:
 
 A WCS GetCapabilities request retrieves a list of the server's data, as
 well as valid WCS operations and parameters.
-
-Example of an EMODnet Bathymetry WCS GetCapabilities request:
-
->   <https://ows.emodnet-bathymetry.eu/wcs?service=wcs&version=1.0.0&request=GetCapabilities>
 
 ##### WCS DescribeCoverage
 
