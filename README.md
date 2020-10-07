@@ -193,11 +193,11 @@ supported by a WFS service.
 
 Example of a EMODnet Biology DescribeFeature request:
 
->   <http://geo.vliz.be/geoserver/Dataportal/wfs?service=wfs&version=2.0.0&request=DescribeFeatureType&typeName=Dataportal:eurobis&outputFormat=application/json>
+>   https://geo.vliz.be/geoserver/Dataportal/wfs?service=wfs&version=2.0.0&request=DescribeFeatureType&typeName=Dataportal:eurobis&outputFormat=application/json
 
 Example of a EMODnet Human Activities DescribeFeature request:
 
->   <https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&VERSION=1.1.0&request=describeFeatureType&typeName=shellfish&bbox=-1.3,0.3,49.2,49.9>
+>   https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&VERSION=1.1.0&request=describeFeatureType&typeName=shellfish&bbox=-1.3,0.3,49.2,49.9
 
 ##### WFS GetFeature
 
@@ -206,7 +206,7 @@ including geometry and attribute values.
 
 Example of a EMODnet Human Activities GetFeature request:
 
->   <https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&VERSION=1.1.0&request=getFeature&typeName=shellfish&bbox=-1.3,0.3,49.2,49.9&outputFormat=application/json>
+>   https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&VERSION=1.1.0&request=getFeature&typeName=shellfish&bbox=-1.3,0.3,49.2,49.9&outputFormat=application/json
 
 #### Web Coverage Service (WCS)
 
