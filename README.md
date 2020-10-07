@@ -10,15 +10,15 @@ applications to connect to the service and query the metadata held in
 the catalogue.
 
   -------------------------- -------------------------------------------------------------------------------------------------------------------------
-| Portal | URL |
+| Portal | CSW GetCapabilities |
 |-|-|
-| EMODnet Central portal | [https://www.emodnet.eu/geonetwork/emodnet/eng/csw](https://www.emodnet.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities) |
+| EMODnet Central portal | https://www.emodnet.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | EMODnet Bathymetry |  |
 | EMODnet Biology |  |
-| EMODNET Chemistry | [https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry](https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry?service=CSW&request=GetCapabilities) |
-| EMODnet Geology | [https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw](https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities) |
+| EMODNET Chemistry | https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| EMODnet Geology | https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | EMODnet Human activities |  |
-| EMODnet Physics | [https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw](https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities) |
+| EMODnet Physics | [https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | EMODnet Seabed habitats |  |
   -------------------------- -------------------------------------------------------------------------------------------------------------------------
 
@@ -29,12 +29,6 @@ service metadata from a server. The response to a GetCapabilities
 request shall be an XML document containing service metadata about the
 server. This subclause specifies the XML document that a CSW server
 shall return to describe its capabilities.
-
-Examples of EMODnet CSW GetCapabilities:
-
-> <https://www.emodnet.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&version=2.0.2>
-
-> <https://sextant.ifremer.fr/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&version=2.0.2>
 
 #### CSW GetRecords
 
@@ -55,7 +49,7 @@ identifier.
 
 EMODnet central portal GetRecordById example
 
->   <https://www.emodnet.eu/geonetwork/emodnet/eng/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&id=5d4696dc-bac4-4dd4-82c5-258700553cb4>
+>   https://www.emodnet.eu/geonetwork/emodnet/eng/csw?request=GetRecordById&service=CSW&version=2.0.2&elementSetName=full&id=5d4696dc-bac4-4dd4-82c5-258700553cb4
 
 ### Data visualisation services
 
@@ -114,11 +108,6 @@ the version:
 (wms endpoint url)?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities or
 (wms endpoint url)?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities
 
-Example of a GetCapabilities request addressed to the EMODnet Physics
-view service:
-
->   [https://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities](http://geoserver.emodnet-physics.eu/geoserver/emodnet/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities)
-
 #### WMS GetMap
 
 Using the information given in the GetCapabilities request, the GetMap
@@ -131,11 +120,11 @@ Example of a GetMap request that returns an image of the EMODnet
 Bathymetry Mean depth (DTM) based on source resolution of 1/8 arc minute
 (\~250 meter) in multi colour style:
 
->   [https://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet%3Amean\_multicolour&styles=&format=image%2Fpng&transparent=true&info\_format=text%2Fhtml&tiled=false&width=400&height=628&srs=EPSG%3A3857&bbox=-2669794.954627626%2C2250306.11271559%2C4800533.188102208%2C14538934.276066802](http://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet%3Amean_multicolour&styles=&format=image%2Fpng&transparent=true&info_format=text%2Fhtml&tiled=false&width=400&height=628&srs=EPSG%3A3857&bbox=-2669794.954627626%2C2250306.11271559%2C4800533.188102208%2C14538934.276066802)
+>   https://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet:mean_multicolour&styles=&format=image/png&transparent=true&info_format=text/html&tiled=false&width=400&height=628&srs=EPSG:3857&bbox=-2669795,22503065,4800533,14538934
 
 Returns:
 
-> <img src="http://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet%3Amean_multicolour&styles=&format=image%2Fpng&transparent=true&info_format=text%2Fhtml&tiled=false&width=400&height=628&srs=EPSG%3A3857&bbox=-2669794.954627626%2C2250306.11271559%2C4800533.188102208%2C14538934.276066802" />
+> <img src="https://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet:mean_multicolour&styles=&format=image/png&transparent=true&info_format=text/html&tiled=false&width=400&height=628&srs=EPSG:3857&bbox=-2669795,22503065,4800533,14538934" />
 
 ### Data download services
 
