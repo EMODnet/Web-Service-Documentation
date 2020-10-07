@@ -42,16 +42,11 @@ GetRecords requests allows to query the catalogue metadata records.
 
 EMODnet central portal GetRecords example:
 
-<<<<<<< HEAD
 >   [https://www.emodnet.eu/geonetwork/emodnet/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc"><ogc:PropertyIsEqualTo><ogc:PropertyName>dc:type</ogc:PropertyName><ogc:Literal>dataset</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>&maxRecords=1000]
-=======
-> <a href="https://www.emodnet.eu/geonetwork/emodnet/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=<ogc:Filter xmlns:ogc=\"http://www.opengis.net/ogc\"><ogc:PropertyIsEqualTo><ogc:PropertyName>dc:type</ogc:PropertyName><ogc:Literal>dataset</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>&maxRecords=1000">https://www.emodnet.eu/geonetwork/emodnet/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc"><ogc:PropertyIsEqualTo><ogc:PropertyName>dc:type</ogc:PropertyName><ogc:Literal>dataset</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>&maxRecords=1000</a>  
-
->>>>>>> 06279fa150e4fd065ff945c0bd23b05b466cfc64
 
 EMODnet Physics GetRecords example:
 
->   [https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc"><ogc:PropertyIsEqualTo><ogc:PropertyName>dc:type</ogc:PropertyName><ogc:Literal>dataset</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>&maxRecords=1000]
+>   [https://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=&ltogc:Filter xmlns:ogc="http://www.opengis.net/ogc"&gt&ltogc:PropertyIsEqualTo&gt&ltogc:PropertyName&gtdc:type&lt/ogc:PropertyName&gt&ltogc:Literal&gtdataset&lt/ogc:Literal&gt&lt/ogc:PropertyIsEqualTo&gt&lt/ogc:Filter&gt&maxRecords=1000](http://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:PropertyIsEqualTo%3E%3Cogc:PropertyName%3Edc:type%3C/ogc:PropertyName%3E%3Cogc:Literal%3Edataset%3C/ogc:Literal%3E%3C/ogc:PropertyIsEqualTo%3E%3C/ogc:Filter%3E&maxRecords=1000)
 
 #### CSW GetRecordById
 
@@ -84,14 +79,14 @@ ArcMap, MapInfo etc.):
   --------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
 | Portal | URL |
 |-|-|
-| EMODnet Bathymetry | https://ows.emodnet-bathymetry.eu/wms |
-| EMODnet Biology - data products | http://geo.vliz.be/geoserver/Emodnetbio/wms |
-| EMODnet Biology - Occurrence data | http://geo.vliz.be/geoserver/Dataportal/wms |
-| EMODnet Chemistry - Concentration maps by sea region | http://ec.oceanbrowser.net/emodnet/Python/web/wms |
-| EMODnet Chemistry - Concentration maps by parameter | http://ec.oceanbrowser.net/emodnet-combined/Python/web/wms |
-| EMODnet Chemistry - Plots | http://ec.oceanbrowser.net/emodnet/Python/web/wpswms |
-| EMODnet Chemistry - Marine litter | https://www.ifremer.fr/services/wms/emodnet_chemistry2 |
-| EMODnet Chemistry - CDI Data Discovery and Access service | https://geoservice.maris.nl/wms/seadatanet/EMODnet_chemistry |
+| EMODnet Bathymetry | [https://ows.emodnet-bathymetry.eu/wms |
+| EMODnet Biology - data products | [http://geo.vliz.be/geoserver/Emodnetbio/wms |
+| EMODnet Biology - Occurrence data | [http://geo.vliz.be/geoserver/Dataportal/wms |
+| EMODnet Chemistry - Concentration maps by sea region | [http://ec.oceanbrowser.net/emodnet/Python/web/wms |
+| EMODnet Chemistry - Concentration maps by parameter | [http://ec.oceanbrowser.net/emodnet-combined/Python/web/wms |
+| EMODnet Chemistry - Plots | [http://ec.oceanbrowser.net/emodnet/Python/web/wpswms |
+| EMODnet Chemistry - Marine litter | [https://www.ifremer.fr/services/wms/emodnet_chemistry2 |
+| EMODnet Chemistry - CDI Data Discovery and Access service | [https://geoservice.maris.nl/wms/seadatanet/EMODnet_chemistry |
 | EMODnet Chemistry – CDI per parameter | http://geoservice.maris2.nl/wms/project/emodnet_chemistry_service/wms |
 | EMODnet Geology – Sea-floor (bedrock) | https://drive.emodnet-geology.eu/geoserver/bgr/wms |
 | EMODnet Geology – Marine Minerals | https://drive.emodnet-geology.eu/geoserver/gsi/wms |
