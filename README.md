@@ -105,8 +105,11 @@ request shall be an XML document containing metadata of the service
 The standard to construct a WMS GetCapabilities request, depending on
 the version:
 
-(wms endpoint url)?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities or
-(wms endpoint url)?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities
+> {wms endpoint url}?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities
+
+or
+
+> {wms endpoint url}?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities
 
 #### WMS GetMap
 
