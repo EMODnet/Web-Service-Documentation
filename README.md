@@ -123,11 +123,11 @@ Example of a GetMap request that returns an image of the EMODnet
 Bathymetry Mean depth (DTM) based on source resolution of 1/8 arc minute
 (\~250 meter) in multi colour style:
 
->   https://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet:mean_multicolour&styles=&format=image/png&transparent=true&info_format=text/html&tiled=false&width=400&height=628&srs=EPSG:3857&bbox=-2669795,22503065,4800533,14538934
+>   https://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet:mean_multicolour&styles=&format=image/png&transparent=true&info_format=text/html&tiled=false&width=400&height=628&srs=EPSG:3857&bbox=-2669794,2250306,4800533,14538934
 
 Returns:
 
-> <img src="https://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet:mean_multicolour&styles=&format=image/png&transparent=true&info_format=text/html&tiled=false&width=400&height=628&srs=EPSG:3857&bbox=-2669795,22503065,4800533,14538934" />
+> <img src="https://ows.emodnet-bathymetry.eu/wms?service=WMS&service=WMS&request=GetMap&version=1.1.1&layers=emodnet:mean_multicolour&styles=&format=image/png&transparent=true&info_format=text/html&tiled=false&width=400&height=628&srs=EPSG:3857&bbox=-2669794,2250306,4800533,14538934" />
 
 ### Data download services
 
