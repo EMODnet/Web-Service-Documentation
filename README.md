@@ -32,7 +32,7 @@ shall return to describe its capabilities.
 
 #### CSW GetRecords
 
-GetRecords requests allows to query the catalogue metadata records.
+GetRecords requests allows to query and filter the catalogue metadata records.
 
 EMODnet central portal GetRecords example:
 
@@ -211,12 +211,14 @@ requests for coverage data (rasters) or gridded data products. Enter one
 of the following addresses into your WCS client:
 
   --------------------------------------------------------------------- ---------------------------------------------------------------------
-| Portal | URL |
-|-|-|
-| EMODnet Bathymetry | https://ows.emodnet-bathymetry.eu/wcs |
-| EMODnet Biology | http://geo.vliz.be/geoserver/Emodnetbio/wcs |
-| EMODnet Human activities | https://ows.emodnet-humanactivities.eu/wcs |
-| EMODnet Seabed Habitats - individual habitat map and model datasets | https://ows.emodnet-seabedhabitats.eu/emodnet_open_maplibrary/wcs |
+  | Portal           | Description                               | WCS
+   GetCapabilities                                                                                                 |
+  |:-----------------|:------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+  | Bathymetry       | Data Products                             | https://ows.emodnet-bathymetry.eu/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                             |
+  | Biology          | Data Products                             | https://geo.vliz.be/geoserver/Emodnetbio/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                      |
+  | Human Activities | Data and Data Products                    | https://ows.emodnet-humanactivities.eu/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                        |
+  | Physics          | Platforms                                 | http://geoserver.emodnet-physics.eu/geoserver/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                 |
+  | Seabed Habitats  | Individual habitat map and model datasets | https://ows.emodnet-seabedhabitats.eu/emodnet_open_maplibrary/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1 |
   --------------------------------------------------------------------- ---------------------------------------------------------------------
 
 ##### WCS GetCapabilities
