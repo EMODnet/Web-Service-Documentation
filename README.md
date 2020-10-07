@@ -211,8 +211,7 @@ requests for coverage data (rasters) or gridded data products. Enter one
 of the following addresses into your WCS client:
 
   --------------------------------------------------------------------- ---------------------------------------------------------------------
-  | Portal           | Description                               | WCS
-   GetCapabilities                                                                                                 |
+  | Portal           | Description                               | WCS GetCapabilities                                                                                                 |
   |:-----------------|:------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
   | Bathymetry       | Data Products                             | https://ows.emodnet-bathymetry.eu/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                             |
   | Biology          | Data Products                             | https://geo.vliz.be/geoserver/Emodnetbio/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                      |
