@@ -12,7 +12,7 @@ the catalogue.
   -------------------------- -------------------------------------------------------------------------------------------------------------------------
 | Portal | URL |
 |-|-|
-| EMODnet Central portal | http://www.emodnet.eu/geonetwork/emodnet/eng/csw |
+| EMODnet Central portal | [https://www.emodnet.eu/geonetwork/emodnet/eng/csw](https://www.emodnet.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities) |
 | EMODnet Bathymetry |  |
 | EMODnet Biology |  |
 | EMODNET Chemistry | https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry |
