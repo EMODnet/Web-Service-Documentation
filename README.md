@@ -136,7 +136,7 @@ Web Coverage Service (WCS) in accordance with the Open Geospatial
 Consortium (OGC) specifications
 ([www.opengeospatial.org](http://www.opengeospatial.org)).
 
-Note that some portals provide other, non-OGC, download services too. For example
+Note that some portals provide other, non-OGC, web services too. For example
 EMODnet Bathymetry offers a REST service, EMODnet Biology allows
 specific parameters in the WFS requests, EMODnet Chemistry has an
 OPeNDAP service,\... See [section
@@ -244,16 +244,14 @@ Example of an EMODnet Bathymetry GetCoverage request:
 
 >   <https://ows.emodnet-bathymetry.eu/wcs?service=wcs&version=1.0.0&request=getcoverage&coverage=emodnet:mean&crs=EPSG:4326&BBOX=-2.52,45.6,-1.08,46.40&format=image/tiff&interpolation=nearest&resx=0.00208333&resy=0.00208333>
 
-### Other web services by thematic portals
+### Non-OGC web services
 
   -------------------------- -------------------------------------------------------------------
- | Portal | URL |
-|-|-|
-| Bathymetry | https://portal.emodnet-bathymetry.eu/services/ |
-| Biology | http://www.emodnet-biology.eu/emodnet-biology-api |
-| Chemistry | https://www.emodnet-chemistry.eu/products/api |
-| Geology | https://www.emodnet-geology.eu/services/ |
-| Human activities |  |
-| Physics |  |
-| Seabed habitats | https://www.emodnet-seabedhabitats.eu/access-data/web-services/ |
+  | Portal     | web service   | URL                                                        |
+  |:-----------|:--------------|:-----------------------------------------------------------|
+  | Bathymetry | REST API      | https://rest.emodnet-bathymetry.eu/                        |
+  | Chemsitry  | OpenDap       | http://ec.oceanbrowser.net:8081/data/emodnet-domains/      |
+  | Physics    | ERDDAP        | https://erddap.emodnet-physics.eu/                         |
+  | Physics    | THREDDS       | http://thredds.emodnet-physics.eu/                         |
+  | Physics    | SOAP API      | https://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx |
   -------------------------- -------------------------------------------------------------------
