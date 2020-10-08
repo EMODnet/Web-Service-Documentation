@@ -255,3 +255,15 @@ Example of an EMODnet Bathymetry GetCoverage request:
   | Physics    | THREDDS       | http://thredds.emodnet-physics.eu/                         |
   | Physics    | SOAP API      | https://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx |
   -------------------------- -------------------------------------------------------------------
+
+### Other useful links with documentation on EMODnet web services
+
+* Bathymetry web Service documentation: https://www.emodnet-bathymetry.eu/data-products/web-services-and-standards
+* Biology web Service documentation:  https://www.emodnet-biology.eu/emodnet-biology-api
+* Chemistry web Service documentation: https://www.emodnet-chemistry.eu/products/api
+* Chemistry GitHub: https://github.com/gher-ulg/EMODnet-Chemistry
+* Geology web Service documentation: https://www.emodnet-geology.eu/services/
+* Physics GitHub: https://github.com/EMODnet-Physics
+* Seabed habitats Web service documentation: https://www.emodnet-seabedhabitats.eu/access-data/web-services/
+* Seabed habitats GitHub: https://github.com/emodnetseabedhabitats
+* Other repos in the main EMODnet GitHub: https://github.com/EMODnet
