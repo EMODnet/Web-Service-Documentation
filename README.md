@@ -281,5 +281,6 @@ Example of an EMODnet Bathymetry GetCoverage request:
 ----------------------------------------------------------------------------------------------
 
 <center> Provided by EMODnet. See our <a href=https://emodnet.eu/en/terms-use> terms of use </a></center>
+
 <center><a href="https://www.emodnet.eu/"><img style="float: None" alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://www.emodnet.eu/sites/emodnet.eu/files/public/logo_2x_1.png" /></a>
 </center>
