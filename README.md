@@ -2,8 +2,9 @@ EMODnet web service documentation
 =================================
 ## R tutorial
 Try out the EMODnet OGC web services in our R tutorial.
-View the tutorial [here](./R tutorial) or run it interactively with [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EMODnet/Web-Service-Documentation/setupbinder?urlpath=https%3A%2F%2Fgithub.com%2FEMODnet%2FWeb-Service-Documentation%2Ftree%2Fsetupbinder%2FR%2520tutorials)
+View the tutorial [here](./R-tutorial) or run it interactively with Binder:
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EMODnet/Web-Service-Documentation/setupbinder?filepath=.%2FR-tutorial%2FEMODnet_web_services_in_R_part1.ipynb)
 ## Documentation
 
 This document has links to all EMODnet web services that allow you to search, visualise and download EMODnet data and data products.
