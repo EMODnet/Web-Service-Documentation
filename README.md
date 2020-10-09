@@ -1,5 +1,15 @@
 EMODnet web service documentation
 =================================
+## R tutorial
+Try out the EMODnet OGC web services in our R tutorial.
+View the tutorial [here](./R-tutorial) or run it interactively with Binder:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EMODnet/Web-Service-Documentation/setupbinder?urlpath=lab/tree/R-tutorial/index.ipynb)
+
+## Documentation
+
+This document has links to all EMODnet web services that allow you to search, visualise and download EMODnet data and data products.
+
 ### Metadata services
 
 The EMODnet catalogues and other partner catalogues (IFREMER,
@@ -267,3 +277,13 @@ Example of an EMODnet Bathymetry GetCoverage request:
 * Seabed habitats Web service documentation: https://www.emodnet-seabedhabitats.eu/access-data/web-services/
 * Seabed habitats GitHub: https://github.com/emodnetseabedhabitats
 * Other repos in the main EMODnet GitHub: https://github.com/EMODnet
+
+----------------------------------------------------------------------------------------------
+<p align="center">
+  Provided by EMODnet. See our <a href=https://emodnet.eu/en/terms-use> terms of use </a>
+</p>
+<p align="center">
+  <a href="https://www.emodnet.eu">
+    <img src="https://www.emodnet.eu/sites/emodnet.eu/files/public/logo_2x_1.png">
+  </a>
+</p>
