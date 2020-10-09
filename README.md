@@ -4,7 +4,7 @@ EMODnet web service documentation
 Try out the EMODnet OGC web services in our R tutorial.
 View the tutorial [here](./R-tutorial) or run it interactively with Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EMODnet/Web-Service-Documentation/setupbinder?urlpath=lab/tree/R-tutorial/index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EMODnet/Web-Service-Documentation/main?urlpath=lab/tree/R-tutorial/index.ipynb)
 
 ## Documentation
 
