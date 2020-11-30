@@ -1,5 +1,5 @@
 EMODnet web service documentation
-=================================
+==================================
 ## R tutorial
 Try out the EMODnet OGC web services in our R tutorial.
 View the tutorial [here](./R-tutorial) or run it interactively with Binder:
