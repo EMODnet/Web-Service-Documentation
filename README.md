@@ -278,6 +278,10 @@ Example of an EMODnet Bathymetry GetCoverage request:
 * Seabed habitats GitHub: https://github.com/emodnetseabedhabitats
 * Other repos in the main EMODnet GitHub: https://github.com/EMODnet
 
+## OGC service status
+
+Having trouble? Verify the status of the EMODnet OGC services at <monitor.emodnet.eu>.
+
 ----------------------------------------------------------------------------------------------
 <p align="center">
   Provided by EMODnet. See our <a href=https://emodnet.eu/en/terms-use> terms of use </a>
