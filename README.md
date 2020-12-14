@@ -280,7 +280,7 @@ Example of an EMODnet Bathymetry GetCoverage request:
 
 ## OGC service status
 
-Having trouble? Verify the status of the EMODnet OGC services at <monitor.emodnet.eu>.
+Having trouble? Verify the status of the EMODnet OGC services at https://monitor.emodnet.eu.
 
 ----------------------------------------------------------------------------------------------
 <p align="center">
