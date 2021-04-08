@@ -28,8 +28,8 @@ the catalogue.
 | Chemistry | https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Geology | https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Human activities |  |
-| Physics | [https://catalogue.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
-| Seabed habitats |  |
+| Physics | https://catalogue.emodnet-physics.eu/geonetwork/srv/eng/csw? |
+| Seabed habitats | https://gis.ices.dk/geonetwork/emodnet-seabedhabitats/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
   -------------------------- -------------------------------------------------------------------------------------------------------------------------
 
 #### CSW GetCapabilities
