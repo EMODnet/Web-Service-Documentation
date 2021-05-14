@@ -256,15 +256,16 @@ Example of an EMODnet Bathymetry GetCoverage request:
 
 ### Non-OGC web services
 
-  -------------------------- -------------------------------------------------------------------
-  | Portal     | web service   | URL                                                        |
-  |:-----------|:--------------|:-----------------------------------------------------------|
-  | Bathymetry | REST API      | https://rest.emodnet-bathymetry.eu/                        |
-  | Chemsitry  | OpenDap       | http://ec.oceanbrowser.net:8081/data/emodnet-domains/      |
-  | Physics    | ERDDAP        | https://erddap.emodnet-physics.eu/                         |
-  | Physics    | THREDDS       | http://thredds.emodnet-physics.eu/                         |
-  | Physics    | SOAP API      | https://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx |
-  -------------------------- -------------------------------------------------------------------
+  -------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+  | Portal     | web service   | URL                                                                                                                         |
+  |:-----------|:--------------|:----------------------------------------------------------------------------------------------------------------------------|
+  | Bathymetry | REST API      | https://rest.emodnet-bathymetry.eu/                                                                                         | 
+  | Chemsitry  | THREDDS       | http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.html                                           |
+  |            |               | XML version: http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.xml                               |
+  | Physics    | ERDDAP        | https://erddap.emodnet-physics.eu/                                                                                          |
+  | Physics    | THREDDS       | http://thredds.emodnet-physics.eu/                                                                                          |
+  | Physics    | SOAP API      | https://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx                                                                  |
+  -------------------------- ---------------------------------------------------------------------------------------------------------------------------------
 
 ### Other useful links with documentation on EMODnet web services
 
