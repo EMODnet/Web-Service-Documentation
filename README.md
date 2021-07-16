@@ -284,7 +284,7 @@ Having trouble? Verify the status of the EMODnet OGC services at https://monitor
 
 ----------------------------------------------------------------------------------------------
 <p align="center">
-  Provided by EMODnet. See our <a href=https://emodnet.eu/en/terms-use> terms of use </a>
+  Provided by EMODnet. See our <a href=https://emodnet.ec.europa.eu/en/terms-use> terms of use </a>
 </p>
 <p align="center">
   <a href="https://emodnet.ec.europa.eu">
