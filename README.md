@@ -260,7 +260,7 @@ Example of an EMODnet Bathymetry GetCoverage request:
   | Portal     | web service   | URL                                                                                                                         |
   |:-----------|:--------------|:----------------------------------------------------------------------------------------------------------------------------|
   | Bathymetry | REST API      | https://rest.emodnet-bathymetry.eu/                                                                                         | 
-  | Chemsitry  | THREDDS       | http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.html <br /> XML version: http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.xml                                                                             |
+  | Chemistry  | THREDDS       | http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.html <br /> XML version: http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.xml                                                                             |
   | Physics    | ERDDAP        | https://erddap.emodnet-physics.eu/                                                                                          |
   | Physics    | THREDDS       | http://thredds.emodnet-physics.eu/                                                                                          |
   | Physics    | SOAP API      | https://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx                                                                  |
