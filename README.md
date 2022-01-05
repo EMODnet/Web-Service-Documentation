@@ -101,8 +101,8 @@ ArcMap, MapInfo etc.):
   | Geology          | Index of borehole and geophysics data                                         | https://drive.emodnet-geology.eu/geoserver/geus/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0               |
   | Human Activities | Data and Data Products                                                        | https://ows.emodnet-humanactivities.eu/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                        |
   | Physics          | Platforms                                                                     | http://geoserver.emodnet-physics.eu/geoserver/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                 |
-  | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/emodnet_view/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
-  | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/emodnet_view_maplibrary/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0 |
+  | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
+  | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view_maplibrary/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0 |
   --------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
 
 #### WMS GetCapabilities
@@ -182,8 +182,8 @@ The EMODnet WFS services are accessible from following endpoints:
   | Geology          | Index of borehole and geophysics data                                         | https://drive.emodnet-geology.eu/geoserver/geus/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0               |
   | Human Activities | Data and Data Products                                                        | https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                        |
   | Physics          | Platforms                                                                     | http://geoserver.emodnet-physics.eu/geoserver/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                 |
-  | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/emodnet_open/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
-  | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/emodnet_open_maplibrary/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0 |
+  | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
+  | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0 |
   --------------------------------------------------------------------- -------------------------------------------------------------------------------
 
 ##### WFS GetCapabilities
@@ -227,7 +227,7 @@ of the following addresses into your WCS client:
   | Biology          | Data Products                             | https://geo.vliz.be/geoserver/Emodnetbio/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                      |
   | Human Activities | Data and Data Products                    | https://ows.emodnet-humanactivities.eu/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                        |
   | Physics          | Platforms                                 | http://geoserver.emodnet-physics.eu/geoserver/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                 |
-  | Seabed Habitats  | Individual habitat map and model datasets | https://ows.emodnet-seabedhabitats.eu/emodnet_open_maplibrary/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1 |
+  | Seabed Habitats  | Individual habitat map and model datasets | https//ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1 |
   --------------------------------------------------------------------- ---------------------------------------------------------------------
 
 ##### WCS GetCapabilities
