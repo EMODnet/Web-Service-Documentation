@@ -23,9 +23,9 @@ the catalogue.
 | Portal | CSW GetCapabilities |
 |-|-|
 | Central portal | https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
-| Bathymetry | https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_HYDROGRAPHY_PRODUCT?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| Bathymetry | https://sextant.ifremer.fr/geonetwork/EMODNET_HYDROGRAPHY_PRODUCT_TILES/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Biology |  |
-| Chemistry | https://sextant.ifremer.fr/geonetwork/srv/eng/csw-EMODNET_Chemistry?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| Chemistry | https://sextant.ifremer.fr/geonetwork/EMODNET_Chemistry/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Geology | https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Human activities | https://ows.emodnet-humanactivities.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Physics | https://catalogue.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
