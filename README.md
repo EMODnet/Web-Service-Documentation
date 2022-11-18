@@ -28,7 +28,7 @@ the catalogue.
 | Chemistry | https://sextant.ifremer.fr/geonetwork/EMODNET_Chemistry/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Geology | https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Human activities | https://ows.emodnet-humanactivities.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
-| Physics | https://catalogue.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| Physics | https://prod-geonetwork.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Seabed habitats | https://gis.ices.dk/geonetwork/emodnet-seabedhabitats/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 -------------------------- -------------------------------------------------------------------------------------------------------------------------
 
@@ -50,7 +50,7 @@ EMODnet central portal GetRecords example:
 
 EMODnet Physics GetRecords example:
 
->   [https://catalogue.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=&lt;ogc:Filter xmlns:ogc="http://www.opengis.net/ogc"&gt;&lt;ogc:PropertyIsEqualTo&gt;&lt;ogc:PropertyName&gt;dc:type&lt;/ogc:PropertyName&gt;&lt;ogc:Literal&gt;dataset&lt;/ogc:Literal&gt;&lt;/ogc:PropertyIsEqualTo&gt;&lt;/ogc:Filter&gt;&maxRecords=1000](http://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:PropertyIsEqualTo%3E%3Cogc:PropertyName%3Edc:type%3C/ogc:PropertyName%3E%3Cogc:Literal%3Edataset%3C/ogc:Literal%3E%3C/ogc:PropertyIsEqualTo%3E%3C/ogc:Filter%3E&maxRecords=1000)
+>   [https://prod-geonetwork.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=&lt;ogc:Filter xmlns:ogc="http://www.opengis.net/ogc"&gt;&lt;ogc:PropertyIsEqualTo&gt;&lt;ogc:PropertyName&gt;dc:type&lt;/ogc:PropertyName&gt;&lt;ogc:Literal&gt;dataset&lt;/ogc:Literal&gt;&lt;/ogc:PropertyIsEqualTo&gt;&lt;/ogc:Filter&gt;&maxRecords=1000](http://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:PropertyIsEqualTo%3E%3Cogc:PropertyName%3Edc:type%3C/ogc:PropertyName%3E%3Cogc:Literal%3Edataset%3C/ogc:Literal%3E%3C/ogc:PropertyIsEqualTo%3E%3C/ogc:Filter%3E&maxRecords=1000)
 
 #### CSW GetRecordById
 
