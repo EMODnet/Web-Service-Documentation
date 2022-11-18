@@ -25,7 +25,7 @@ the catalogue.
 | Central portal | https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Bathymetry | https://sextant.ifremer.fr/geonetwork/EMODNET_HYDROGRAPHY_PRODUCT_TILES/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Biology |  |
-| Chemistry | https://sextant.ifremer.fr/geonetwork/EMODNET_Chemistry/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
+| Chemistry | https://sextant.ifremer.fr/geonetwork/EMODNET_Chemistry/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Geology | https://drive.emodnet-geology.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Human activities | https://ows.emodnet-humanactivities.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
 | Physics | https://catalogue.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2 |
