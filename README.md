@@ -50,7 +50,7 @@ EMODnet central portal GetRecords example:
 
 EMODnet Physics GetRecords example:
 
->   [https://prod-geonetwork.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=&lt;ogc:Filter xmlns:ogc="http://www.opengis.net/ogc"&gt;&lt;ogc:PropertyIsEqualTo&gt;&lt;ogc:PropertyName&gt;dc:type&lt;/ogc:PropertyName&gt;&lt;ogc:Literal&gt;dataset&lt;/ogc:Literal&gt;&lt;/ogc:PropertyIsEqualTo&gt;&lt;/ogc:Filter&gt;&maxRecords=1000](http://catalog.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:PropertyIsEqualTo%3E%3Cogc:PropertyName%3Edc:type%3C/ogc:PropertyName%3E%3Cogc:Literal%3Edataset%3C/ogc:Literal%3E%3C/ogc:PropertyIsEqualTo%3E%3C/ogc:Filter%3E&maxRecords=1000)
+>   [https://prod-geonetwork.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=&lt;ogc:Filter xmlns:ogc="http://www.opengis.net/ogc"&gt;&lt;ogc:PropertyIsEqualTo&gt;&lt;ogc:PropertyName&gt;dc:type&lt;/ogc:PropertyName&gt;&lt;ogc:Literal&gt;dataset&lt;/ogc:Literal&gt;&lt;/ogc:PropertyIsEqualTo&gt;&lt;/ogc:Filter&gt;&maxRecords=1000](https://prod-geonetwork.emodnet-physics.eu/geonetwork/srv/eng/csw?REQUEST=GetRecords&SERVICE=CSW&VERSION=2.0.2&ELEMENTSETNAME=summary&OUTPUTSCHEMA=http://www.opengis.net/cat/csw/2.0.2&CONSTRAINTLANGUAGE=FILTER&CONSTRAINT_LANGUAGE_VERSION=1.1.0&RESULTTYPE=results&TYPENAMES=csw:Record&CONSTRAINT=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:PropertyIsEqualTo%3E%3Cogc:PropertyName%3Edc:type%3C/ogc:PropertyName%3E%3Cogc:Literal%3Edataset%3C/ogc:Literal%3E%3C/ogc:PropertyIsEqualTo%3E%3C/ogc:Filter%3E&maxRecords=1000)
 
 #### CSW GetRecordById
 
@@ -99,7 +99,7 @@ ArcMap, MapInfo etc.):
   | Geology          | Submerged Landscapes                                                          | https://drive.emodnet-geology.eu/geoserver/bgs/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                |
   | Geology          | Index of borehole and geophysics data                                         | https://drive.emodnet-geology.eu/geoserver/geus/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0               |
   | Human Activities | Data and Data Products                                                        | https://ows.emodnet-humanactivities.eu/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                        |
-  | Physics          | Platforms                                                                     | https://geoserver.emodnet-physics.eu/geoserver/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                 |
+  | Physics          | Data and Data Products                                                        | https://prod-geoserver.emodnet-physics.eu/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                 |
   | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
   | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view_maplibrary/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0 |
   --------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
@@ -180,7 +180,8 @@ The EMODnet WFS services are accessible from following endpoints:
 | Geology          | Submerged Landscapes                                                          | https://drive.emodnet-geology.eu/geoserver/bgs/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                |
 | Geology          | Index of borehole and geophysics data                                         | https://drive.emodnet-geology.eu/geoserver/geus/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0               |
 | Human Activities | Data and Data Products                                                        | https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                        |
-| Physics          | Platforms                                                                     | http://geoserver.emodnet-physics.eu/geoserver/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                 |
+| Physics          | Data and Data Products                                                        | https://prod-geoserver.emodnet-physics.eu/geoserver/ows?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0
+                 |
 | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
 | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0 |
 --------------------------------------------------------------------- -------------------------------------------------------------------------------
@@ -233,7 +234,6 @@ of the following addresses into your WCS client:
   | Bathymetry       | Data Products                             | https://ows.emodnet-bathymetry.eu/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                             |
   | Biology          | Data Products                             | https://geo.vliz.be/geoserver/Emodnetbio/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                      |
   | Human Activities | Data and Data Products                    | https://ows.emodnet-humanactivities.eu/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                        |
-  | Physics          | Platforms                                 | https://geoserver.emodnet-physics.eu/geoserver/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                 |
   | Seabed Habitats  | Individual habitat map and model datasets | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1 |
   --------------------------------------------------------------------- ---------------------------------------------------------------------
 
@@ -268,8 +268,7 @@ Example of an EMODnet Bathymetry GetCoverage request:
 |:-----------|:--------------|:----------------------------------------------------------------------------------------------------------------------------|
 | Bathymetry | REST API      | https://rest.emodnet-bathymetry.eu/                                                                                         |
 | Chemistry  | THREDDS       | http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.html <br /> XML version: http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.xml                                                                             |
-| Physics    | ERDDAP        | https://erddap.emodnet-physics.eu/                                                                                          |
-| Physics    | THREDDS       | http://thredds.emodnet-physics.eu/                                                                                          |
+| Physics    | ERDDAP        | https://prod-erddap.emodnet-physics.eu/erddap/index.html                                                                                          |
 | Physics    | SOAP API      | https://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx                                                                  |
 -------------------------- ---------------------------------------------------------------------------------------------------------------------------------
 
