@@ -19,7 +19,7 @@ Data. The data catalogues offer a **CSW** endpoint to other client
 applications to connect to the service and query the metadata held in
 the catalogue.
 
--------------------------- -------------------------------------------------------------------------------------------------------------------------
+
 | Portal           | CSW GetCapabilities                                                                                                               |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Central portal   | https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2                         |
@@ -30,7 +30,6 @@ the catalogue.
 | Human activities | https://ows.emodnet-humanactivities.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2                   |
 | Physics          | https://prod-geonetwork.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2               |
 | Seabed habitats  | https://gis.ices.dk/geonetwork/emodnet-seabedhabitats/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2                   |
--------------------------- -------------------------------------------------------------------------------------------------------------------------
 
 #### CSW GetCapabilities
 
@@ -80,7 +79,6 @@ Pan-European scale or global scale for some specific data products.
 Enter one of the following WMS endpoint URLs into your WMS client (QGIS,
 ArcMap, MapInfo etc.):
 
-  --------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
   | Portal           | Description                                                                   | WMS GetCapabilities                                                                                                           |
   | :--------------- | :---------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
   | Bathymetry       | Data Products                                                                 | https://ows.emodnet-bathymetry.eu/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                                       |
@@ -102,7 +100,6 @@ ArcMap, MapInfo etc.):
   | Physics          | Data and Data Products                                                        | https://prod-geoserver.emodnet-physics.eu/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                     |
   | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
   | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view_maplibrary/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0 |
-  --------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
 
 #### WMS GetCapabilities
 
@@ -162,7 +159,6 @@ performing a WFS GetCapabilities request.
 
 The EMODnet WFS services are accessible from following endpoints:
 
---------------------------------------------------------------------- -------------------------------------------------------------------------------
 | Portal           | Description                                                                   | WFS GetCapabilities                                                                                                           |
 | :--------------- | :---------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
 | Bathymetry       | Data Products                                                                 | https://ows.emodnet-bathymetry.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                                       |
@@ -184,7 +180,6 @@ The EMODnet WFS services are accessible from following endpoints:
 |                  |
 | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
 | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0 |
---------------------------------------------------------------------- -------------------------------------------------------------------------------
 
 ##### WFS GetCapabilities
 
@@ -228,14 +223,12 @@ The EMODnet portals provide Web Coverage Services (WCS) to support
 requests for coverage data (rasters) or gridded data products. Enter one
 of the following addresses into your WCS client:
 
-  --------------------------------------------------------------------- ---------------------------------------------------------------------
   | Portal           | Description                               | WCS GetCapabilities                                                                                                           |
   | :--------------- | :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
   | Bathymetry       | Data Products                             | https://ows.emodnet-bathymetry.eu/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                                       |
   | Biology          | Data Products                             | https://geo.vliz.be/geoserver/Emodnetbio/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                                |
   | Human Activities | Data and Data Products                    | https://ows.emodnet-humanactivities.eu/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1                                  |
   | Seabed Habitats  | Individual habitat map and model datasets | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wcs?SERVICE=WCS&REQUEST=GetCapabilities&VERSION=2.0.1 |
-  --------------------------------------------------------------------- ---------------------------------------------------------------------
 
 ##### WCS GetCapabilities
 
@@ -263,14 +256,12 @@ Example of an EMODnet Bathymetry GetCoverage request:
 
 ### Non-OGC web services
 
--------------------------- ---------------------------------------------------------------------------------------------------------------------------------
 | Portal     | web service | URL                                                                                                                                                                                    |
 | :--------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Bathymetry | REST API    | https://rest.emodnet-bathymetry.eu/                                                                                                                                                    |
 | Chemistry  | THREDDS     | http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.html <br /> XML version: http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.xml |
 | Physics    | ERDDAP      | https://prod-erddap.emodnet-physics.eu/erddap/index.html                                                                                                                               |
 | Physics    | SOAP API    | https://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx                                                                                                                             |
--------------------------- ---------------------------------------------------------------------------------------------------------------------------------
 
 ### Other useful links with documentation on EMODnet web services
 
