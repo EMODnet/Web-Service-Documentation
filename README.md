@@ -177,7 +177,6 @@ The EMODnet WFS services are accessible from following endpoints:
 | Geology          | Index of borehole and geophysics data                                         | https://drive.emodnet-geology.eu/geoserver/geus/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                         |
 | Human Activities | Data and Data Products                                                        | https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                                  |
 | Physics          | Data and Data Products                                                        | https://prod-geoserver.emodnet-physics.eu/geoserver/ows?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0                     |
-|                  |
 | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0            |
 | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0 |
 
@@ -261,17 +260,11 @@ Example of an EMODnet Bathymetry GetCoverage request:
 | Bathymetry | REST API    | https://rest.emodnet-bathymetry.eu/                                                                                                                                                    |
 | Chemistry  | THREDDS     | http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.html <br /> XML version: http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.xml |
 | Physics    | ERDDAP      | https://prod-erddap.emodnet-physics.eu/erddap/index.html                                                                                                                               |
-| Physics    | SOAP API    | https://www.emodnet-physics.eu/Map/service/WSEmodnet2.aspx                                                                                                                             |
 
 ### Other useful links with documentation on EMODnet web services
 
-* Bathymetry web Service documentation: https://www.emodnet-bathymetry.eu/data-products/web-services-and-standards
-* Biology web Service documentation:  https://www.emodnet-biology.eu/emodnet-biology-api
-* Chemistry web Service documentation: https://www.emodnet-chemistry.eu/products/api
 * Chemistry GitHub: https://github.com/gher-ulg/EMODnet-Chemistry
-* Geology web Service documentation: https://www.emodnet-geology.eu/services/
 * Physics GitHub: https://github.com/EMODnet-Physics
-* Seabed habitats Web service documentation: https://www.emodnet-seabedhabitats.eu/access-data/web-services/
 * Seabed habitats GitHub: https://github.com/emodnetseabedhabitats
 * Other repos in the main EMODnet GitHub: https://github.com/EMODnet
 
