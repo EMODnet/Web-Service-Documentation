@@ -157,10 +157,9 @@ Consortium (OGC) specifications
 ([www.opengeospatial.org](http://www.opengeospatial.org)).
 
 Note that some thematics provide other, non-OGC, web services too. For example
-EMODnet Bathymetry offers a REST service, EMODnet Biology allows
-specific parameters in the WFS requests, EMODnet Chemistry has an
-OPeNDAP service,\... See [section
-1.3.9.](#other-web-services-by-thematic)
+a central EMODnet ERDDAP server, a REST service to the EMODnet Bathymetry DTM, EMODnet Biology allows
+specific parameters in the WFS requests, EMODnet Chemistry has an OPeNDAP service. See section
+[Non-OGC web services](#non-ogc-web-services)
 
 #### Web Feature Service (WFS)
 
