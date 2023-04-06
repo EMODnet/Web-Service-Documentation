@@ -1,0 +1,8 @@
+Package: placeholder
+Type: Website
+Title: info
+Version: 0.0.1
+Imports:
+  readr,
+  rmarkdown,
+  knitr
