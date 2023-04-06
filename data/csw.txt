@@ -1,0 +1,2 @@
+"Thematic"	"CSW GetCapabilities"
+"Central Catalogue"	"https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2"
