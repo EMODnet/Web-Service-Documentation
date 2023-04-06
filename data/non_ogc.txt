@@ -1,0 +1,5 @@
+"Thematic"	"web service"	"URL"
+"EMDOnet"	"ERDDAP"	"https://erddap.emodnet.eu/erddap/index.html"
+"Bathymetry"	"REST API"	"https://rest.emodnet-bathymetry.eu/"
+"Chemistry"	"THREDDS"	"http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.html <br /> XML version: http://opendap.oceanbrowser.net/thredds/catalog/data/emodnet-domains/catalog.xml"
+"Physics"	"ERDDAP"	"https://prod-erddap.emodnet-physics.eu/erddap/index.html"
