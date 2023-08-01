@@ -87,6 +87,7 @@ ArcMap, MapInfo etc.):
 | Geology          | Index of borehole and geophysics data                                         | https://drive.emodnet-geology.eu/geoserver/geus/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                         |
 | Human Activities | Data and Data Products                                                        | https://ows.emodnet-humanactivities.eu/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                                  |
 | Physics          | Data and Data Products                                                        | https://prod-geoserver.emodnet-physics.eu/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0                     |
+| Physics          | Gridded Products                                                              | https://prod-erddap.emodnet-physics.eu/ncWMS/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0   
 | Seabed Habitats  | General datasets and products                                                 | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0            |
 | Seabed Habitats  | Individual habitat map and model datasets                                     | https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view_maplibrary/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0 |
 
