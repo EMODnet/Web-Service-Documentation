@@ -279,6 +279,7 @@ Example of an EMODnet Bathymetry GetCoverage request:
 
 ### Other useful links with documentation on EMODnet web services
 
+* Biology Github: https://github.com/EMODnet/EMODnet-Biology-Guidance
 * Chemistry GitHub: https://github.com/gher-ulg/EMODnet-Chemistry
 * Physics GitHub: https://github.com/EMODnet-Physics
 * Seabed habitats GitHub: https://github.com/emodnetseabedhabitats
