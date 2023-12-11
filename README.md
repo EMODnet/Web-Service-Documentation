@@ -137,7 +137,7 @@ The EMODnet WMTS service are accessible from following endpoints:
 | Biology          | Data Products                             | https://geo.vliz.be/geoserver/Dataportal/gwc/service/wmts?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0                                |
 | Biology          | New Data Products                         | https://ows.emodnet.eu/geoserver/biology/gwc/service/wmts?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0                                |
 | Biology          | Occurrence data                           | https://geo.vliz.be/geoserver/Emodnetbio/gwc/service/wmts?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0                                |
-| Chemistry        | Contaminants                              | https://nodc.inogs.it/geoserver/Contaminants/gwc/service/wmts?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0                            |
+| Chemistry        | Contaminants                              | https://geoserver.hcmr.gr/geoserver/EMODNET_SHARED/gwc/service/wmts?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0                      |
 | Geology          | Sea-floor (bedrock)                       | https://drive.emodnet-geology.eu/geoserver/bgr/gwc/service/wmts?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0                          |
 | Geology          | Marine Minerals                           | https://drive.emodnet-geology.eu/geoserver/gsi/gwc/service/wmts?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0                          |
 | Geology          | Seabed substrate maps                     | https://drive.emodnet-geology.eu/geoserver/gtk/gwc/service/wmts?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0                          |
