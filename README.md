@@ -13,6 +13,7 @@ The majority of EMODnet web services are Open Geospatial Consortium (OGC) web se
 ## Tutorials
 
 Tuturials on using EMODnet's OGC services in following programming languages are available:
+
 * [OGC web service tutorials in Python](https://github.com/EMODnet/OGC-Webservices-Python-Tutorial)
 * [OGC web service tutorials in R](https://github.com/EMODnet/OGC-Webservices-R-Tutorial)
 
