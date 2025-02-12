@@ -314,7 +314,7 @@ A WCS GetCoverage request returns a coverage encoded in a specified format (e.g 
 
 # Non-OGC web services
 
-Some thematics provide other, non-OGC, download services that are more suited for the types of data they offer. This includes ERDDAP & THREDDS services for the retrieval of multidimensional raster data using the OPeNDAP standard and a custom REST API service to extract retrieve water depth at locations and along profiles from the EMODnet Bathymetry DTM .
+Some thematics provide other, non-OGC, download services that are more suited for the types of data they offer. This includes ERDDAP & THREDDS services for the retrieval of multidimensional raster data using the OPeNDAP standard and a custom REST API service to extract the water depth at locations and along profiles from the EMODnet Bathymetry Digital Terrain Model.
 
 | Thematic   | web service | URL                                                                                                                                                                                    |
 | ---------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
