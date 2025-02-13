@@ -217,7 +217,7 @@ The ***GetCapabilities*** request generates a metadata document (xml) describing
  [ https://ows.emodnet-bathymetry.eu/wfs?<br>
 SERVICE=WFS&<br>
 REQUEST=GetCapabilities&<br>
-VERSION=2.0](https://ows.emodnet-bathymetry.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.)
+VERSION=2.0.0](https://ows.emodnet-bathymetry.eu/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0)
 
 #### WFS DescribeFeature
 
