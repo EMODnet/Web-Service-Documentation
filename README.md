@@ -252,12 +252,12 @@ The ***GetFeature*** request returns a selection of features from a data source 
             bbox=-1.3,0.3,49.2,49.9&<br>
             outputFormat=application/json](https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&VERSION=1.1.0&request=getFeature&typeName=shellfish&bbox=-1.3,0.3,49.2,49.9&outputFormat=application/json)
 
-#### EMODnetWFS: An R Client of EMODnet Web Feature Service data
+#### emodnet.wfs: An R Client of EMODnet Web Feature Service data
 
-[EMODnetWFS](https://emodnet.github.io/EMODnetWFS/) is an R package developed to access WFS data from EMODnet. You can install with:
+[emodnet.wfs](https://github.com/EMODnet/emodnet.wfs) is an R package developed to access WFS data from EMODnet. You can install with:
 
 ```r
-remotes::install_github("EMODnet/EMODnetWFS")
+install.packages("emodnet.wfs", repos = c("https://ropensci.r-universe.dev", "https://cloud.r-project.org"))
 ```
 
 ### Web Coverage Service (WCS)
