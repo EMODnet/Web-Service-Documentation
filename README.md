@@ -17,6 +17,7 @@ Tuturials on using EMODnet's OGC services in different programming languages are
 * [OGC web service tutorials in Python](https://github.com/EMODnet/OGC-Webservices-Python-Tutorial)
 * [OGC web service tutorials in R](https://github.com/EMODnet/OGC-Webservices-R-Tutorial)
 * [Demonstration of accessing EMODnet Biology Data and Data Products in R for the UN Ocean Decade](https://github.com/EMODnet/EMODnet-Biology-UN-Decade-webinar).
+* [EMODnet Biology R Geospatial Tutorials](https://github.com/EMODnet/emodnet-bio-r-geo-tutorials).
 
 ## Metadata services
 ### Catalogues Service for the Web (CSW)
